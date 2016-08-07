@@ -1,0 +1,145 @@
+body {
+	margin:0;
+}
+
+#logo {
+	position:absolute;
+	left:12.5%;
+}
+img {
+	width:68%;
+}
+img.sec {
+	width:100%;
+}
+#banner {
+	display:flex;
+	flex-direction:row-reverse;
+	align-items:center;
+	width:75%;
+	height:150px;
+	margin-left:12.5%;
+	padding:0;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+ul {
+	display:flex;
+	flex-direction: row-reverse;
+	list-style-type: none;
+}
+li a{
+	color:#000;
+	text-decoration:none;
+	font-family: "Candara",sans-serif;
+	font-size:20px;
+	margin-right:100px;
+}
+
+#main_img {
+	display:block;
+	margin:auto;
+	margin-top:2%;
+	width:73%;
+	opacity:0.7;
+}
+
+#introP {
+	font-family: "Candara",sans-serif;
+	font-size:16.5px;
+}
+.text {
+	list-style-type: none;
+	font-family: "Candara",sans-serif;
+	font-size:16.5px;
+	font-weight:bold;
+	padding-left:2em;
+}
+
+#intro-wrapper {
+	width:75%;
+	margin-left:12.5%;
+}
+#intro-picture {
+	width:20%;
+	margin-top:5%;
+	margin-left:6%;
+	float:left;
+	padding-right:7%;
+	border-right:2px solid #D9D9D9;
+
+}
+#introductory{
+	width:55%;
+	float:left;
+	word-wrap: break-word; 
+	margin-left:5.5%;
+	margin-top:5%;
+
+
+}
+
+div.divform {
+	width:53%;
+	margin:auto;
+	padding-top:3%;
+
+}
+div.divblog {
+	width:50%;
+	margin:auto;
+	word-wrap: break-word; 
+
+}
+
+div.divpic {
+	width:75%;
+	margin:auto;
+	padding-top:5%;
+	padding-left:22%;
+}
+div.panel {
+	display:flex;
+	flex-direction: row-reverse;
+}
+div.post {
+	text-align:center;
+	padding-top:10%;
+}
+
+h2 {
+	text-align: right;
+	font-family: "Candara",sans-serif;
+	font-size:18px;
+}
+h2.blogout {
+	text-align: right;
+	font-family: "Candara",sans-serif;
+	font-size:18px;
+	margin-right:3.5%;
+}
+h3 {
+	text-align: center;
+	font-family: "Candara",sans-serif;
+	font-size:25px;
+}
+p.blog {
+	text-align: center;
+	font-family: "Candara",sans-serif;
+	font-size:18px;
+}
+p.date {
+	text-align:right;
+	font-family: "Candara",sans-serif;
+	font-size:15px;
+}
+a{
+	color:blue;
+	text-decoration:none;
+}
+label.lb {
+	font-size:22px;
+	border-bottom:1px solid #D3D3D3;
+	padding-bottom:1%;
+	padding-right:3%;
+}
